@@ -1,0 +1,667 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+@media (min-width:320px) and (max-width:767px){
+    
+    .navbar-white .navbar-nav .nav-link{
+        color: rgb(23, 24, 24);
+        padding: 17px 22px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .navbar-white .navbar-nav .nav-link:focus, 
+    .navbar-white .navbar-nav .nav-link:hover{
+        color:rgb(15, 228, 247);
+    }
+    .carousel-item img{
+        height: 500px;
+    }
+    .carousel-caption{
+        bottom: 60px;
+        left: 40px;
+        padding-right: 30px;
+    
+    }
+    .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: start;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+        text-align: start;
+    }
+   
+    .sect2{
+        background-color: rgb(240, 237, 229);
+        padding: 40px 0px;
+        text-align: center;
+     }
+     .sect3{
+        margin: 40px 0px ;
+    }
+    #r1{
+        padding: 8px 20px;
+    }
+    .sect4{
+        background-color:rgb(23, 25, 97);
+        padding: 90px 0px;
+        justify-content: space-between;
+    }
+    .c1{
+        margin-bottom: 20px;
+    }
+    .c1:hover{
+     background-color: rgb(158, 134, 134);
+     color: black;
+    }
+    #p1{
+        padding: 0px 60px;
+    }
+    .sect5{
+      background: url(assets/sect5.jpg);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      padding: 160px 0px;
+     
+      }
+
+      #bbt{
+        color: rgb(15, 196, 196);
+        font-size: 29px;
+        padding: 13px;
+       }
+       #bbt:hover{
+        background-color:  rgb(15, 196, 196);
+        color: white;
+       }
+   
+   #content6{
+   padding: 50px 20px ;
+   }
+
+  #top1{
+    margin-bottom: 160px;
+  }
+
+     /*service page css*/
+
+  #s3{
+    background: url(assets/services.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 200px 0px;
+  }
+  #s11{
+    font-size: 20px;
+  }
+  #s12{
+    font-size: 35px;
+  }
+  .card{
+    margin-bottom: 24px;
+  }
+  .card:hover{
+    background-color: rgb(9, 9, 86);
+    color: white;
+  }
+  
+   /*about page css*/
+   .abt3{
+    background: url(assets/contact_bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+    padding: 100px 0px;
+  }
+ #abt{
+  color: rgb(15, 196, 196);
+  font-size: 40px;
+  padding: 8px;
+ }
+ #abt:hover{
+  background-color:  rgb(15, 196, 196);
+  color: white;
+ }
+ 
+ #abttoggle{
+  margin-left: 44px;
+   }
+ .abticn{
+  margin-top: -50px;
+  margin-left: 53%;
+   }
+
+ /*project css*/
+ .tab-content img{
+  margin-top: 25px;
+  transition: .5s ease-in-out;
+ 
+}
+.tab-content img:hover  {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+.nav-tabs a{
+  padding: 20px 30px;
+ font-size: 20px;
+ color: black;
+ font-weight: 400;
+ 
+}
+.nav-tabs a:hover{
+  color: purple;
+}
+.nav-tabs a:active{
+  border-bottom: 5px solid blue;
+}
+
+
+  
+
+   .icons{
+    display: none;
+      }
+
+  
+  
+
+   }
+
+  
+
+@media (min-width:768px) and (max-width:1023px){
+  
+    
+    .navbar-white .navbar-nav .nav-link{
+        color: rgb(23, 24, 24);
+        padding: 17px 22px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .navbar-white .navbar-nav .nav-link:focus, 
+    .navbar-white .navbar-nav .nav-link:hover{
+        color:rgb(15, 228, 247);
+    }
+    .carousel-item img{
+        height: 600px;
+    }
+    .carousel-caption{
+        bottom: 65px;
+        left: 70px;
+        padding-right: 30px;
+    
+    }
+    .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 700;
+        text-align: start;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        text-align: start;
+    }
+    .sect2{
+        background-color:  rgb(240, 237, 229);
+        padding: 40px 0px;
+     }
+     .sect3{
+        margin: 90px 0px ;
+    }
+    #r1{
+        padding: 8px 30px;
+    }
+    .sect4{
+        background-color: rgb(23, 25, 97);
+        padding: 90px 0px;
+        justify-content: space-between;
+    }
+    .c1{
+        margin-bottom: 20px;
+    }
+    .c1:hover{
+     background-color: rgb(158, 134, 134);
+     color: black;
+    }
+    #p1{
+        padding: 0px 100px;
+    }
+    .sect5{
+      background: url(assets/sect5.jpg);
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      padding: 160px 0px;
+    
+      }
+     
+     
+      #bbt{
+        color: rgb(15, 196, 196);
+        font-size: 60px;
+        padding: 40px;
+       }
+       #bbt:hover{
+        background-color:  rgb(15, 196, 196);
+        color: white;
+       }
+
+
+      /*service page css*/
+
+  #s3{
+    background: url(assets/services.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 200px 0px;
+  }
+  #s11{
+    font-size: 29px;
+  }
+  #s12{
+    font-size: 70px;
+  }
+  .card{
+    margin-bottom: 24px;
+  }
+  .card:hover{
+    background-color: rgb(9, 9, 86);
+    color: white;
+  }
+
+   /*about page css*/
+   .abt3{
+    background: url(assets/contact_bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 100px 0px;
+  }
+ #abt{
+  color: rgb(15, 196, 196);
+  font-size: 70px;
+  padding: 50px;
+ }
+ #abt:hover{
+  background-color:  rgb(15, 196, 196);
+  color: white;
+ }
+ 
+ #abttoggle{
+margin-left: 434px;
+ }
+ .abticn{
+margin-top: -50px;
+margin-left: 45%;
+ }
+
+ /*project css*/
+ .tab-content img{
+  margin-top: 25px;
+  transition: .5s ease-in-out;
+ 
+}
+.tab-content img:hover  {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+
+.nav-tabs a{
+  padding: 20px 30px;
+ font-size: 20px;
+ color: black;
+ font-weight: 400;
+ 
+}
+.nav-tabs a:hover{
+  color: purple;
+}
+.nav-tabs a:active{
+  border-bottom: 5px solid blue;
+}
+
+
+
+ .icons{
+    position: fixed;
+    top: 15%;
+    right: 0%;
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .icons a{
+    margin-bottom: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    transform: translate(116px, 0px);
+    transition: all 0.5s;
+  }
+  .icons a:hover{
+    transform: translate(0px, 0px);
+  }
+  .icons a img{
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+  }
+  .icons a img .img1{
+    color: white;
+  }
+  .icons a img .img2{
+    color: white;
+  }
+
+  .e1{
+    background-color: black;
+    color: white;
+
+  }
+  .e2{
+    background-color: black;
+    color: white;
+
+  }
+
+}
+
+
+
+
+@media (min-width:1024px)  {
+
+  
+    .navbar-white .navbar-nav .nav-link{
+        color: rgb(23, 24, 24);
+        padding: 17px 22px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .navbar-white .navbar-nav .nav-link:focus, 
+    .navbar-white .navbar-nav .nav-link:hover{
+        color:rgb(15, 228, 247);
+    }
+    .carousel-item img{
+        height: 800px;
+    }
+    .carousel-caption{
+        bottom: 150px;
+        left: 200px;
+        padding-right: 300px;
+    
+    }
+    .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 90px;
+        font-weight: 700;
+        text-align: start;
+    }
+    .carousel-caption p{
+        font-size: 22px;
+        text-align: start;
+     padding-right: 165px;
+    }
+    .sect2{
+       background-color:  rgb(240, 237, 229);
+       padding: 40px 0px;
+    }
+    .sect3{
+        margin: 90px 0px ;
+    }
+    #r1{
+        padding: 0px 80px;
+    }
+    .sect4{
+        background-color: rgb(23, 25, 97);
+        padding: 160px 0px;
+    }
+    .c1:hover{
+     background-color: rgb(158, 134, 134);
+     color: black;
+    }
+    #p1{
+        padding: 0px 320px;
+    }
+    .sect5{
+    background: url(assets/sect5.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 199px 0px;
+   
+    }
+    
+
+    #bbt{
+      color: rgb(15, 196, 196);
+      font-size: 70px;
+      padding: 50px;
+     }
+     #bbt:hover{
+      background-color:  rgb(15, 196, 196);
+      color: white;
+     }
+     
+  
+    /*service page css*/
+
+  #s3{
+    background: url(assets/services.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 200px 0px;
+  }
+  #s11{
+    font-size: 29px;
+  }
+  #s12{
+    font-size: 80px;
+  }
+  .card:hover{
+    background-color: rgb(9, 9, 86);
+    color: white;
+  }
+ #h1:hover{
+  color: white;
+ }
+
+ 
+
+  /*about page css*/
+  .abt3{
+    background: url(assets/contact_bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 100px 0px;
+  }
+ #abt{
+  color: rgb(15, 196, 196);
+  font-size: 40px;
+  padding: 20px;
+ }
+ #abt:hover{
+  background-color:  rgb(15, 196, 196);
+  color: white;
+ }
+ 
+ 
+
+/*project css*/
+
+.tab-content img{
+  margin-top: 25px;
+  transition: .5s ease-in-out;
+ 
+}
+.tab-content img:hover  {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+
+.nav-tabs a{
+  padding: 20px 30px;
+ font-size: 20px;
+ color: black;
+ font-weight: 400;
+ 
+}
+.nav-tabs a:hover{
+  color: purple;
+}
+.nav-tabs a:active{
+  border-bottom: 5px solid blue;
+}
+
+ .icons{
+    position: fixed;
+    top: 15%;
+    right: 0%;
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .icons a{
+    margin-bottom: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    transform: translate(116px, 0px);
+    transition: all 0.5s;
+  }
+  .icons a:hover{
+    transform: translate(0px, 0px);
+  }
+  .icons a img{
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+  }
+  .icons a img .img1{
+    color: white;
+  }
+  .icons a img .img2{
+    color: white;
+  }
+
+  .e1{
+    background-color: black;
+    color: white;
+
+  }
+  .e2{
+    background-color: black;
+    color: white;
+
+  }
+
+ 
+
+}
+
+.abt4 .card{
+  transition: all 0.4s ease;
+ }
+ .abt4 .card:hover {
+  transform: translateY(-25px);
+ }
+
+@keyframes fade-up{
+  0%{
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.abt2{
+  animation: fade-up 0.9s;
+}
+
+@keyframes fade-down{
+  0%{
+    opacity: 0;
+    transform: translateY(-40px) scale(0.9);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.sect3{
+  animation: fade-down 0.9s;
+}
+
+@keyframes fade-down{
+  0%{
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.navbar-brand{
+  animation: fade-down 0.9s;
+}
+
+.progress-bar{
+ animation-name: harry;
+ animation-duration: 3s;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ animation-timing-function: ease-in-out;
+}
+@keyframes harry{
+  0%{
+    width: 0px;
+  }
+  100%{
+   
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down{
+  0%{
+    opacity: 0;
+    transform: translateY(-40px) scale(0.6);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.tab-content img{
+  animation: fade-down 0.9s;
+}
+
